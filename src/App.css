@@ -1,0 +1,212 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+background: linear-gradient(to bottom right, rgb(35, 34, 34),rgb(67, 64, 64));
+}
+
+#heading{
+  text-align: center;
+  color: white;
+}
+
+#mainBodyOfCard{
+  background-color: black;
+  height: 28rem;
+  width: 15rem;
+  margin: 25px;
+  border-radius: 20px;
+  color: aliceblue;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#readMore{
+  position: relative;
+  left: 140px;
+  top: 30px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  height: 2rem;
+  padding: 5px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+#readMore:hover{
+  box-shadow: 1px 1px 15px rgb(220, 221, 223);
+}
+#readMore:active{
+  background-color: white;
+  color: black;
+}
+
+
+#summaryCard{
+  position: absolute;
+  top: 4rem;
+  left: 12rem;
+  text-align: center;
+  color: aliceblue;
+  width: 71rem;
+  background-color: black;
+}
+
+#summaryClose{
+  margin-bottom: 10px;
+  position: relative;
+  left: 32rem;
+  top: 1rem;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+#summaryClose:hover{
+  box-shadow: 1px 1px 20px red;
+}
+#summaryClose:active{
+  background-color: red;
+}
+
+#ticketBtn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#ticketBtn:active{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+#ticketForm{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  left: 32rem;
+  top: 8rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: transparent;
+}
+
+#crossBtn{
+  position: relative;
+  left: 13rem;
+  top: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  color: red;
+  font-size: xx-large;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+/*---------------Laptop-------------------*/
+
+@media screen and (max-width: 1025px) {
+  #summaryCard{
+      position: absolute;
+      top: 8rem;
+      left: 5rem;
+      text-align: center;
+      color: aliceblue;
+      width: 55rem;
+      background-color: black;
+  }
+  #summaryClose{
+    left: 25rem;
+  }
+  #ticketForm{
+    left: 22rem;
+  }
+}
+
+/*----------------Tablets-----------*/
+@media screen and (max-width: 769px) and (min-width:426px) {
+  #summaryCard{
+      position: absolute;
+      top: 8rem;
+      left: 5rem;
+      text-align: center;
+      color: aliceblue;
+      width: 40rem;
+      background-color: black;
+  }
+  #summaryClose{
+    left: 18rem;
+  }
+  #ticketForm{
+    left: 12rem;
+  }
+}
+
+/*-------------Phones--------------------*/
+@media screen and (max-width: 426px) {
+  #summaryCard{
+      position: absolute;
+      top: 8rem;
+      left: 4rem;
+      text-align: center;
+      color: aliceblue;
+      width: 20rem;
+      background-color: black;
+  }
+  #summaryClose{
+    left: 8rem;
+  }
+  #ticketForm{
+    left: 2rem;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #summaryCard{
+      position: absolute;
+      top: 8rem;
+      left: 2rem;
+      text-align: center;
+      color: aliceblue;
+      width: 20rem;
+      background-color: black;
+  }
+  #summaryClose{
+    left: 8rem;
+  }
+  #ticketForm{
+    left: 1rem;
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  #readMore:nth-child(3){
+    left: 80px;
+  }
+  #summaryCard{
+      left: 2.5rem;
+      width: 16rem;
+  }
+  #summaryClose{
+    left: 6rem;
+  }
+  #ticketForm{
+    left: 0;
+    width: 20rem;
+  }
+  #crossBtn{
+    left: 8rem;
+  }
+}

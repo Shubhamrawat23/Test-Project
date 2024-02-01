@@ -1,0 +1,15 @@
+#ticketSumbitBtn{
+    position: relative;
+    left: 9rem;
+    top: 2rem;
+    width: 10rem;
+    height: 2rem;
+    padding: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+@media screen and (max-width: 321px){
+    form{
+        width: 18rem !important;
+    }
+}

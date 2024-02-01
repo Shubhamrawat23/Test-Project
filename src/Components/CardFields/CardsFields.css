@@ -1,0 +1,20 @@
+
+#cardImg{
+    width: 15rem;
+    height: 18rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#cardShow{
+    margin-left: 6px;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+#cardGenres,#cardRating{
+    margin-left: 5px;
+    font-size: medium;
+    font-weight: 400;
+}
